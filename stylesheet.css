@@ -1,0 +1,56 @@
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  #navbar{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 300px;
+    height: 100%;
+    border-right:solid;
+    border-color:
+  }
+  header{
+    color: black;
+    margin: 20px;
+    text-align:center;
+    font-size: 30px;
+  }
+  #main-doc header{
+    text-align:left;
+    margin:0px;
+  }
+  #navbar ul {
+    height:50%;
+    padding:10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size:20px;
+  }
+  #navbar li {
+    color:grey;
+    border-top: 1px solid;
+    list-style: none;
+    position:relative;
+    width:100%;
+  }
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color:black;
+    text-decoration:none;
+    cursor: pointer;
+  }
+  section{
+    font-size:20px;
+    color:lightblack;
+  }
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: 10px;
+    }
+  }
+  
